@@ -60,3 +60,7 @@ main .hero img {
 .hero [data-align="center"] {
     text-align: center;
 }
+
+main .hero h1 {
+    font-size: 75px;
+}

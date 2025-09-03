@@ -24,6 +24,23 @@ import {
   setupAnalyticsTrackingWithAlloy,
 } from './analytics/lib-analytics.js';
 
+// Auto-redirect to add trailing slash if missing (only on localhost or preview)
+(function () {
+  const needsSlash =
+    location.pathname.match(/\/[a-z0-9_-]+$/i) && // ends with segment, no slash after
+    !location.pathname.endsWith('/');
+
+  const isLocalOrPreview =
+    location.hostname === 'localhost' ||
+    location.hostname.endsWith('.aem.page');
+
+  if (needsSlash && isLocalOrPreview) {
+    location.replace(location.pathname + '/' + location.search + location.hash);
+  }
+})();
+
+
+
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 window.hlx.RUM_GENERATION = 'project-1'; // add your RUM generation information here
 
