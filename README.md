@@ -7,8 +7,8 @@ Codebase for the fictional WKND site, showcasing the capabilities of Adobe's Edg
 - Document based content authoring
 
 ## Environments
-- Preview: ~~https://main--wknd-xwalk--adobe-rnd.hlx.page/~~ https://main--wkdn-demo--kroboz.aem.page/
-- Live: ~~https://main--wknd-xwalk--adobe-rnde.hlx.live/~~ https://main--wkdn-demo--kroboz.aem.live/
+- Preview: https://main--wkdn-demo--kroboz.aem.page/
+- Live: https://main--wkdn-demo--kroboz.aem.live/
 
 ## Installation
 
