@@ -58,3 +58,8 @@
     padding-top: 45px;
     padding-bottom: 10px;
 }
+
+.featured-article .text a {
+    font-size: 11px;
+    font-style: italic;
+}
