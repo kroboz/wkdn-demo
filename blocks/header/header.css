@@ -216,7 +216,7 @@ header nav[aria-expanded='true'] .nav-tools li {
   }
 
   header nav .nav-brand {
-    flex: 0 0 150px;
+    flex: 0 0 350px;
   }
 
   header nav .nav-sections ul {
